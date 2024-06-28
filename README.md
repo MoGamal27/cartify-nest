@@ -85,6 +85,64 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Project Structure
+src/
+  ├── config/
+  │   ├── environment.ts
+  │   └── database.ts
+  ├── users/
+  │   ├── entities/
+  │   │   └── user.entity.ts
+  │   ├── dto/
+  │   │   ├── create-user.dto.ts
+  │   │   ├── login-user.dto.ts
+  │   │   └── update-user.dto.ts
+  │   ├── users.controller.ts
+  │   ├── users.service.ts
+  │   └── users.module.ts
+  ├── products/
+  │   ├── entities/
+  │   │   └── product.entity.ts
+  │   ├── dto/
+  │   │   ├── create-product.dto.ts
+  │   │   └── update-product.dto.ts
+  │   ├── products.controller.ts
+  │   ├── products.service.ts
+  │   └── products.module.ts
+  ├── orders/
+  │   ├── entities/
+  │   │   └── order.entity.ts
+  │   ├── dto/
+  │   │   ├── create-order.dto.ts
+  │   └── orders.controller.ts
+  │   ├── orders.service.ts
+  │   └── orders.module.ts
+  ├── categories/
+  │   ├── entities/
+  │   │   └── category.entity.ts
+  │   ├── dto/
+  │   │   ├── create-category.dto.ts
+  │   ├── categories.controller.ts
+  │   ├── categories.service.ts
+  │   └── categories.module.ts
+  ├── cart/
+  │   ├── entities/
+  │   │   └── cart.entity.ts
+  │   ├── dto/
+  │   │   ├── create-cart.dto.ts
+  │   ├── cart.controller.ts
+  │   ├── cart.service.ts
+  │   └── cart.module.ts
+  ├── payments/
+  │   ├── payments.controller.ts
+  │   ├── payments.service.ts
+  │   └── payments.module.ts
+  ├── utils/
+  │   └── jwt.util.ts
+  └── middleware/
+      └── jwt.middleware.ts
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
