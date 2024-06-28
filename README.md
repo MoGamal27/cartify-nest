@@ -22,6 +22,33 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+# E-commerce Platform
+
+## Overview
+This project is an e-commerce platform built with NestJS. It includes modules for managing users, products, orders, categories, carts, and payments. The project demonstrates a well-structured, scalable, and maintainable architecture using modern web development practices.
+
+## Features
+- **User Authentication**: Register, login, logout, and manage user profiles.
+- **Product Management**: Create, read, update, and delete products.
+- **Order Management**: Place orders and view order details.
+- **Category Management**: Manage product categories.
+- **Cart Management**: Add products to cart, view cart, and remove products from cart.
+- **Payment Processing**: Integrate with Stripe for handling payments.
+
+## Technologies
+- **Backend**: NestJS, TypeScript
+- **Database**: (PostgreSQL)
+- **Authentication**: JWT (JSON Web Tokens)
+- **Payments**: Stripe
+
+## Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/MoGamal27/cartify-net.git
+   cd e-commerce-platform
+
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
